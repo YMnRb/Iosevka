@@ -1,0 +1,370 @@
+# Build options
+[buildOptions]
+optimizeWithTtx = false
+
+# Building plans
+# Sans
+[buildPlans.Iosevka]
+family = "Iosevka Custom"
+desc = "Default"
+buildCharMap = true
+snapshotFamily = 'Iosevka Custom'
+snapshotFeature = {"NWID" = 0}
+exportGlyphNames = true
+
+[buildPlans.IosevkaTerm]
+family = "Iosevka Custom Term"
+spacing = "term"
+snapshotFamily = 'Iosevka Custom'
+snapshotFeature = {"NWID" = 1}
+exportGlyphNames = true
+
+[buildPlans.IosevkaFixed]
+family = "Iosevka Custom Fixed"
+spacing = "fixed"
+snapshotFamily = 'Iosevka Custom'
+snapshotFeature = {"NWID" = 1}
+exportGlyphNames = true
+
+# Variants
+[buildPlans.Iosevka.variants.design]
+capital-q = "crossing"
+i = "serifed-flat-tailed"
+l = "serifed-flat-tailed"
+y = "straight-turn-serifless"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+four = "closed-serifless"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.Iosevka.variants.italic]
+capital-g = "toothless-corner-serifless-hooked"
+a = "single-storey-earless-corner-tailed"
+b = "toothless-corner-serifless"
+g = "single-storey-earless-corner"
+i = "serifed-flat-tailed"
+k = "cursive-bottom-right-serifed"
+l = "serifed-flat-tailed"
+q = "earless-corner-straight-serifless"
+v = "cursive-serifless"
+w = "curly-serifless"
+y = "straight-turn-motion-serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "open-contour"
+eight = "two-circles"
+nine = "open-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+[buildPlans.Iosevka.variants.oblique]
+i = "serifed"
+l = "serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+[buildPlans.IosevkaTerm.variants.design]
+capital-q = "crossing"
+i = "serifed-flat-tailed"
+l = "serifed-flat-tailed"
+y = "straight-turn-serifless"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+four = "closed-serifless"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.IosevkaTerm.variants.italic]
+capital-g = "toothless-corner-serifless-hooked"
+a = "single-storey-earless-corner-tailed"
+b = "toothless-corner-serifless"
+g = "single-storey-earless-corner"
+i = "serifed-flat-tailed"
+k = "cursive-bottom-right-serifed"
+l = "serifed-flat-tailed"
+q = "earless-corner-straight-serifless"
+v = "cursive-serifless"
+w = "curly-serifless"
+y = "straight-turn-motion-serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "open-contour"
+eight = "two-circles"
+nine = "open-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+[buildPlans.IosevkaTerm.variants.oblique]
+i = "serifed"
+l = "serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+[buildPlans.IosevkaFixed.variants.design]
+capital-q = "crossing"
+i = "serifed-flat-tailed"
+l = "serifed-flat-tailed"
+y = "straight-turn-serifless"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+four = "closed-serifless"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.IosevkaFixed.variants.italic]
+capital-g = "toothless-corner-serifless-hooked"
+a = "single-storey-earless-corner-tailed"
+b = "toothless-corner-serifless"
+g = "single-storey-earless-corner"
+i = "serifed-flat-tailed"
+k = "cursive-bottom-right-serifed"
+l = "serifed-flat-tailed"
+q = "earless-corner-straight-serifless"
+v = "cursive-serifless"
+w = "curly-serifless"
+y = "straight-turn-motion-serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "open-contour"
+eight = "two-circles"
+nine = "open-contour"
+brace = "straight"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+[buildPlans.IosevkaFixed.variants.oblique]
+i = "serifed"
+l = "serifed"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending-serifless"
+lower-eth = "straight-bar"
+lower-lambda = "straight-turn"
+cyrl-capital-ze = "bilateral-inward-serifed"
+cyrl-ze = "bilateral-inward-serifed"
+cyrl-capital-ka = "symmetric-connected-bottom-right-serifed"
+cyrl-ka = "symmetric-connected-bottom-right-serifed"
+six = "closed-contour"
+eight = "two-circles"
+nine = "closed-contour"
+number-sign = "slanted"
+percent = "rings-continuous-slash"
+lig-ltgteq = "slanted"
+lig-equal-chain = "with-notch"
+lig-plus-chain = "with-notch"
+
+# Ligations
+  [buildPlans.Iosevka.ligations]
+  inherits = "dlig"
+
+  [buildPlans.IosevkaTerm.ligations]
+  inherits = "dlig"
+
+###################################################################################################
+# Collect plans
+
+[collectPlans.Iosevka]
+release = true
+from = [
+	"Iosevka",
+	"IosevkaTerm",
+	"IosevkaFixed"
+]
+
+###################################################################################################
+# Weight mappings (style => shape weight, menu weight, CSS weight)
+#   Shape weight : affects the shape of the glyphs
+#   Menu weight  : affects the font menu name
+#   CSS weight   : affects the webfont CSS "font-weight" property
+# IMPORTANT : Currently "menu" property only support 100, 200, 300, 350, 400, 450, 500, 600, 700,
+#             800, 900, and "shape" properly only supports number between 100 and 900 (inclusive).
+
+[weights.Thin]
+shape = 100
+menu  = 100
+css   = 100
+
+[weights.ExtraLight]
+shape = 200
+menu  = 200
+css   = 200
+
+[weights.Light]
+shape = 300
+menu  = 300
+css   = 300
+
+[weights.Regular]
+shape = 400
+menu  = 400
+css   = 400
+
+[weights.Medium]
+shape = 500
+menu  = 500
+css   = 500
+
+[weights.SemiBold]
+shape = 600
+menu  = 600
+css   = 600
+
+[weights.Bold]
+shape = 700
+menu  = 700
+css   = 700
+
+[weights.ExtraBold]
+shape = 800
+menu  = 800
+css   = 800
+
+[weights.Heavy]
+shape = 900
+menu  = 900
+css   = 900
+
+# slope mappings (style => slope angle, shape slope grade, menu slope, CSS slope)
+[slopes.Upright]
+angle = 0
+shape = "upright"
+menu  = "upright"
+css   = "normal"
+
+[slopes.Oblique]
+angle = 9.4
+shape = "oblique"
+menu  = "oblique"
+css   = "oblique"
+
+[slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu  = "italic"
+css   = "italic"
+
+# Width mappings (style => shape width, menu width, CSS stretch)
+#   Shape width   : affects the shape of the glyphs
+#   Menu width    : affects the font menu name
+#   CSS stretch   : affects the webfont CSS "font-stretch" property
+#
+# IMPORTANT : Currently "shape" property only support 3 ... 9
+#              and "menu" only support 1 ... 9
+
+[widths.Normal]
+shape = 500
+menu  = 5
+css   = "normal"
+
+[widths.SemiExtended]
+shape = 548
+menu  = 6
+css   = "semi-expanded"
+
+[widths.Extended]
+shape = 600
+menu  = 7
+css   = "expanded"
+
